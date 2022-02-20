@@ -1,0 +1,43 @@
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(40%);
+}
+.show{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 8;
+    display: flex;
+    align-items: center;
+}
+.img {
+    height: 345px;
+}
+.textbox {
+    padding: 0 16px 0 32px;
+    width: 300px;
+    height: 345px;
+}
+.title {
+    font-weight: bold;
+    font-size: 25px;
+}
+.title:hover{
+    text-decoration: underline;
+}
+.title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.textbox ul {
+    padding: 0 0 0 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+
